@@ -42,6 +42,9 @@ In order to run this project you need to have the following installed locally:
 * Load the maven dependencies using command 'mvn dependency:resolve' in terminal
 * Run the test scripts by command 'mvn clean verify' 
 * Or simply execute your test cases by running the MyRunnerTestSuite class
+* To execute on different browsers, change driver name in serenity.conf file
+   *src/test/resources/serenity.conf*
+* For chrome driver put chrome, for MS edge driver - edge and Firefox driver - firefox.
 
 ### Reporting
 
