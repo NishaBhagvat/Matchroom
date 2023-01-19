@@ -2,9 +2,8 @@ package com.matchroom.runners;
 
 import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
-import net.thucydides.core.annotations.Managed;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.WebDriver;
+
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
@@ -14,6 +13,4 @@ import org.openqa.selenium.WebDriver;
 )
 
 public class MyRunnerTestSuite {
-    @Managed(driver = "firefox")
-    WebDriver driver;
 }

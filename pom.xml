@@ -16,7 +16,7 @@
         <serenity.version>3.5.1</serenity.version>
         <serenity.maven.version>3.2.4</serenity.maven.version>
         <serenity.cucumber.version>3.5.1</serenity.cucumber.version>
-        <webdriver.driver>firefox</webdriver.driver>
+        <webdriver.driver></webdriver.driver>
         <webdriver.base.url></webdriver.base.url>
         <tags></tags>
     </properties>
