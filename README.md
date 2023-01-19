@@ -23,7 +23,7 @@ Matchroom test automation framework is designed to cover test automation of http
 
 In order to run this project you need to have the following installed locally:
 
-* Firefox/Edge browser to run the test scripts
+* Firefox/Edge/Chrome browser to run the test scripts
 * Any IDE tool for java like IntelliJ.
 * Maven 3
 
