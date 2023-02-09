@@ -1,6 +1,7 @@
 package com.matchroom.stepdefinition;
 
 import com.matchroom.tests.VODFilteringTest;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -25,4 +26,26 @@ public class VODFilteringStepDef {
     public void filteredVideosListed(String sports) {
         vodFilteringTest.validateFilterResult(sports);
     }
+
+    //---------------------------------
+//    @And("length of video duration as {string}")
+//    public void videoDurationFilter(String duration){
+//        vodFilteringTest.validateVideoFilter(duration);
+//    }
+
+    @When("competition as {string}")
+    public void competitionFilter(String competition) {
+        vodFilteringTest.selectCompetitionFilter(competition);
+    }
+
+    @When("length of video duration as {string}")
+    public void videoDurationFilter(String duration) {
+        vodFilteringTest.selectTimeFilter(duration);
+    }
+
+    @When("I enter {string} into the search field")
+    public void searchVideos(String searchTxt) {
+        vodFilteringTest.searchVideos(searchTxt);
+    }
+
 }

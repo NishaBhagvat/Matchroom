@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="VOD Filtering" skipped="0" tests="1" time="46.86" timestamp="2023-02-09 12:05:38"><testcase name="Verify that the videos are displayed based on search filter"><failure message="Expected enabled element was not enabled&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'
+Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'
+Driver info: driver.version: unknown
+com.matchroom.web.pages.VODFilteringWebPage.acceptCookies(VODFilteringWebPage.java:58)
+com.matchroom.tests.VODFilteringTest.launchURL(VODFilteringTest.java:13)
+com.matchroom.stepdefinition.VODFilteringStepDef.i_am_on_on_demand_tab(VODFilteringStepDef.java:17)
+✽.I am on OnDemand tab(file:///Users/nisha/Downloads/Matchroom-main%202/src/test/resources/features/VODFiltering.feature:5)
+</system-err></testcase></testsuite>

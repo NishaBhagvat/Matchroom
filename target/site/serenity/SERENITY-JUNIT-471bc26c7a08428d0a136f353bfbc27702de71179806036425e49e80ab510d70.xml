@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="VOD Filtering" skipped="0" tests="1" time="31.03" timestamp="2023-02-09 01:33:52"><testcase name=""><error message="Unable to locate element: //iframe[contains(@id, 'map-instance')]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.7.1', revision: 'c6795baf1a3'&#10;System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [77e88ba3-45d8-4e8d-9274-2e4515bc947c, findElement {using=xpath, value=//iframe[contains(@id, 'map-instance')]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:36384, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 1241, moz:profile: /var/folders/kr/mmfksy3947g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36384/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 77e88ba3-45d8-4e8d-9274-2e4515bc947c" type="org.openqa.selenium.NoSuchElementException">Unable to locate element: //iframe[contains(@id, 'map-instance')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [77e88ba3-45d8-4e8d-9274-2e4515bc947c, findElement {using=xpath, value=//iframe[contains(@id, 'map-instance')]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:36384, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 1241, moz:profile: /var/folders/kr/mmfksy3947g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36384/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77e88ba3-45d8-4e8d-9274-2e4515bc947c</error><system-err>Unable to locate element: //iframe[contains(@id, 'map-instance')]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '19.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [77e88ba3-45d8-4e8d-9274-2e4515bc947c, findElement {using=xpath, value=//iframe[contains(@id, 'map-instance')]}]
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 109.0.1, moz:accessibilityChecks: false, moz:buildID: 20230127170202, moz:debuggerAddress: 127.0.0.1:36384, moz:geckodriverVersion: 0.32.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 1241, moz:profile: /var/folders/kr/mmfksy3947g..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:36384/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 77e88ba3-45d8-4e8d-9274-2e4515bc947c
+com.matchroom.web.pages.VODFilteringWebPage.launch(VODFilteringWebPage.java:51)
+com.matchroom.tests.VODFilteringTest.launchURL(VODFilteringTest.java:12)
+com.matchroom.stepdefinition.VODFilteringStepDef.i_am_on_on_demand_tab(VODFilteringStepDef.java:17)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)
+</system-err></testcase></testsuite>

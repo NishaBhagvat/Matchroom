@@ -23,4 +23,32 @@ public class VODFilteringTest {
     public void validateFilterResult(String sports) {
         Assert.assertEquals("All filtered videos are not valid", vodFilteringWebPage.getResultCount(sports), vodFilteringWebPage.getAllVideoCount());
     }
+
+    //----------------------
+//    @Step
+//    public void validateVideoFilter(String duration){
+//        vodFilteringWebPage.videoDurationFilter(duration);
+//        Assert.assertTrue("Videos are not listed ", vodFilteringWebPage.verifyVideoDuration(duration));
+//
+//    }
+
+    @Step
+    public void selectCompetitionFilter(String competition) {
+        vodFilteringWebPage.selectCompetition(competition);
+        Assert.assertEquals("Selected competition is not displayed", competition, vodFilteringWebPage.getSelectedCompName());
+        Assert.assertTrue("Correct URL is not there", vodFilteringWebPage.verifyCompetitionURL(competition));
+    }
+
+    @Step
+    public void selectTimeFilter(String duration) {
+        vodFilteringWebPage.videoDurationFilter(duration);
+        Assert.assertTrue("Correct time is not selected", vodFilteringWebPage.validateTimeFilter(duration));
+    }
+
+    @Step
+    public void searchVideos(String searchTxt) {
+        vodFilteringWebPage.searchForVideos(searchTxt);
+        Assert.assertTrue("Search parameter is not same", vodFilteringWebPage.searchQueryParameter(searchTxt));
+    }
+
 }

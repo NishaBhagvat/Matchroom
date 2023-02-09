@@ -1,0 +1,6 @@
+com/matchroom/tests/VODFilteringTest.class
+com/matchroom/reusable/ReusableOperations.class
+com/matchroom/runners/MyRunnerTestSuite.class
+com/matchroom/stepdefinition/VODFilteringStepDef.class
+com/matchroom/web/pages/VODFilteringWebPage.class
+com/matchroom/web/pages/videoDuration.class
